@@ -1,0 +1,22 @@
+[package]
+name = "excavate-nbt"
+version = "0.1.0"
+description = "Library for parsing and writing NBT data structures"
+license = "Apache-2.0"
+keywords = [ "nbt", "minecraft", "excavate" ]
+categories = [ "encoding", "parsing" ]
+repository = "https://github.com/minecraft-cloud/excavate-nbt"
+authors = [
+    "Connor Spencer Harries <connorsharries96@gmail.com>"
+]
+
+[badges]
+travis-ci = { repository = "minecraft-cloud/excavate-nbt", branch = "master" }
+
+[lib]
+name="nbt"
+
+[dependencies]
+byteorder = "1.2.7"
+flate2 = "1.0.4"
+error-chain = "0.12.0"
